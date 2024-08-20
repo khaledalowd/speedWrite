@@ -1,4 +1,4 @@
-  * {
+* {
     box-sizing: border-box;
   }
 
@@ -46,7 +46,10 @@
     align-items: center;
     justify-content: center;
   }
-
+.cc{
+    display: flex;
+    
+}
   .container {
     background-color: #34495e;
     padding: 20px;
@@ -55,7 +58,7 @@
     color: #fff;
     position: relative;
     text-align: center;
-    width: 90%;
+    width: 100%;
     max-width: 500px;
   }
 
@@ -107,6 +110,6 @@
 
   @media (max-width: 500px) {
     .container {
-      width: 90%;
+      width: 100%;
     }
   }
