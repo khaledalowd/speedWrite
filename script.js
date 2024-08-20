@@ -14,6 +14,18 @@ const btn=document.getElementById('btn')
 // List of words for game
 
 const words = [
+  'cat',
+'sun',
+'book'
+,'tree'
+,'bird'
+,'rain'
+,'jump'
+,'love'
+,'happy'
+,'smile',
+  "puzzle", "journey", "melody", "whisper", "shadow", "harvest", "journey", "twilight", "fragile", "rhythm",
+  "labyrinth", "synchronize", "effervescent", "ubiquitous", "chrysanthemum", "archipelago", "melancholy", "idiosyncrasy", "juxtaposition", "quintessential",
   'sigh',
   'tense',
   'airplane',
