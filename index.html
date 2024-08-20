@@ -9,50 +9,49 @@
   </head>
   <body>
     <div id="visible" hidden>
-    <div id="settings" class="settings">
-      <form id="settings-form">
-        <div>
-          <label for="difficulty">Difficulty</label>
-          <select id="difficultyy" onchange="storeData();">
-            <option value="easy">Easy</option>
-            <option value="medium">Medium</option>
-            <option value="hard">Hard</option>
-          </select>
-        </div>
-      </form>
-    </div>
+      <div id="settings" class="settings">
+        <form id="settings-form">
+          <div>
+            <label for="difficulty">Difficulty</label>
+            <select id="difficultyy" onchange="storeData();">
+              <option value="easy">Easy</option>
+              <option value="medium">Medium</option>
+              <option value="hard">Hard</option>
+            </select>
+          </div>
+        </form>
+      </div>
 
-    <div class="container">
-      
-      <h2>👩‍💻 Speed Typer 👨‍💻</h2>
-      <small>Type the following:</small>
+      <div class="container">
+        <h2>👩‍💻 Speed Typer 👨‍💻</h2>
+        <small>Type the following:</small>
 
-      <h1 id="word"></h1>
+        <h1 id="word"></h1>
 
-      <input
-        type="text"
-        id="text"
-        autocomplete="off"
-        placeholder="Type the word here..."
-      />
+        <input
+          type="text"
+          id="text"
+          autocomplete="off"
+          placeholder="Type the word here..."
+        />
 
-      <p class="time-container">Time left: <span id="time">10s</span></p>
+        <p class="time-container">Time left: <span id="time">10s</span></p>
 
-      <p class="score-container">Score: <span id="score">0</span></p>
+        <p class="score-container">Score: <span id="score">0</span></p>
 
         <p id="message"></p>
+      </div>
     </div>
-
-  </div>
-  <div id="two" hidden>
-  <div  class="end-game-container" >
-    <form>
-       <h1> Time ran Out</h1>
-       <p id="fscore"> </p>
-       <button id="btn" >Reload</button>
-    </form>
-  </div>
-  </div>
+    <div id="two" hidden>
+      <div class="end-game-container">
+        <form>
+          <h1>Time ran Out</h1>
+          <p id="fscore"></p>
+          <button id="btn">Reload</button>
+        </form>
+      </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
+
